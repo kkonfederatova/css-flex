@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+
+    color: #212529;
+    font: 18px/1.5 sans-serif;
+
+    background-color: #f7f8fa;
+}
+
+img {
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+h2 {
+    text-align: center;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.catalog-item {
+    width: 350px;
+}
