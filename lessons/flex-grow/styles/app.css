@@ -1,0 +1,28 @@
+:root {
+    --min-height: 50vh;
+}
+
+.left-aside {
+    min-width: 200px;
+    min-height: var(--min-height);
+
+    background: #d32f2f;
+}
+
+.content-side {
+    flex-grow: 1;
+    min-height: var(--min-height);
+
+    background: #388e3c;
+}
+
+.right-aside {
+    min-width: 350px;
+    min-height: var(--min-height);
+
+    background: #1976d2;
+}
+
+.d-flex {
+    display: flex;
+}
